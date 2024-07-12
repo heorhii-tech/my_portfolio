@@ -124,7 +124,9 @@
 }
 
 .wrapper {
-  margin: auto
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px
 }
 
 @media (min-width: 1536px) {
@@ -163,8 +165,7 @@
 .title_text {
   margin-top: 1.25rem;
   font-weight: 700;
-  line-height: 59px;
-  letter-spacing: 0.025em
+  line-height: 59px
 }
 
 @media (min-width: 1280px) {
@@ -390,6 +391,9 @@
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  p {
+    text-align: center
+  }
   p:first-child {
     font-size: 1.125rem;
     line-height: 1.75rem
@@ -511,10 +515,10 @@
     padding-right: 2rem
   }
   h3 {
-    padding-top: 1.25rem
+    padding-top: 1rem
   }
   h3 {
-    padding-bottom: 1rem
+    padding-bottom: 0.75rem
   }
   h3 {
     text-align: center
@@ -534,7 +538,7 @@
   }
   @media (min-width: 1536px) {
     h3 {
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       line-height: 1.75rem
     }
   }
@@ -578,12 +582,12 @@
     border-color: rgb(0 105 195 / var(--tw-border-opacity))
   }
   .skill_name_wrapper {
-    padding-left: 2rem;
-    padding-right: 2rem
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
   }
   .skill_name_wrapper {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem
+    padding-top: 1rem;
+    padding-bottom: 1rem
   }
   .skill_name_wrapper {
     font-size: 1.125rem;

@@ -8,7 +8,7 @@
     @apply mt-4 text-lg italic;
 };
 .title_text{
-    @apply  xl:w-[530px] xl:text-[42px] 2xl:text-[48px] 2xl:w-[614px] font-bold leading-[59px] tracking-wide mt-5;
+    @apply  xl:w-[530px] xl:text-[42px] 2xl:text-[48px] 2xl:w-[614px] font-bold leading-[59px] mt-5;
 };
 .sub_title{
     @apply mt-5 w-[400px] font-semibold;

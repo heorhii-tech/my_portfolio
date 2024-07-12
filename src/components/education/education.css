@@ -24,7 +24,7 @@
     @apply w-[337px]  p-4 gap-2 shadow-xl rounded-[10px] flex justify-center items-center flex-col ;
 box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 p{
-    @apply first:font-semibold first:text-lg last:font-semibold;
+    @apply first:font-semibold first:text-lg last:font-semibold text-center;
 }
     
 }
