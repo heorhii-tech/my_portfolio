@@ -1,5 +1,5 @@
 .skillset{
-    @apply flex mt-[33px] mx-auto gap-6;
+    @apply flex mt-[33px]  justify-between;
 }
 .skills_logo{
     @apply w-[85px] h-[85px] rounded-full;

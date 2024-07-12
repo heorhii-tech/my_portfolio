@@ -124,9 +124,7 @@
 }
 
 .wrapper {
-  margin: auto;
-  padding-left: 80px;
-  padding-right: 80px
+  margin: auto
 }
 
 @media (min-width: 1536px) {
@@ -416,7 +414,8 @@
 }
 
 .education_content_wrapper {
-  display: flex
+  display: flex;
+  justify-content: space-between
 }
 
 @media (min-width: 1024px) {
@@ -428,12 +427,6 @@
 @media (min-width: 1280px) {
   .education_content_wrapper {
     gap: 3.4rem
-  }
-}
-
-@media (min-width: 1536px) {
-  .education_content_wrapper {
-    justify-content: space-between
   }
 }
 
@@ -459,11 +452,9 @@
 }
 
 .skillset {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 33px;
   display: flex;
-  gap: 1.5rem
+  justify-content: space-between
 }
 
 .skills_logo {
@@ -678,9 +669,6 @@
 .footer {
   margin: auto;
   display: grid;
-  max-width: 1440px;
-  padding-left: 5rem;
-  padding-right: 5rem;
   padding-top: 2.25rem;
   padding-bottom: 4rem
 }
@@ -688,6 +676,12 @@
 @media (min-width: 1280px) {
   .footer {
     max-width: 1280px
+  }
+}
+
+@media (min-width: 1536px) {
+  .footer {
+    max-width: 1440px
   }
 }
 

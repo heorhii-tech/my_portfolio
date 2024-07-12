@@ -1,5 +1,5 @@
 .wrapper{
-    @apply container m-auto 2xl:max-w-[1440px] px-[80px];
+    @apply container m-auto 2xl:max-w-[1440px];
     
 };
 *{
