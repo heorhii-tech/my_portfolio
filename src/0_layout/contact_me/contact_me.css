@@ -1,0 +1,9 @@
+.contact_link_wrapper{
+    @apply mt-8 grid grid-cols-3 gap-[23px] text-center mb-[40px] text-2xl;
+};
+.contact_me_section{
+    @apply mt-[100px];
+};
+.contact_me_title{
+    @apply text-5xl font-bold;
+}

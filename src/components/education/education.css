@@ -1,0 +1,33 @@
+.date_wrapper{
+    @apply  2xl:w-[192px] flex justify-between flex-col xl:w-[140px];
+    .date{
+        @apply bg-customBlue px-6 py-4 text-center rounded-[8px] text-white 2xl:w-[192px] xl:w-[140px] ;
+    };
+ 
+};
+   .vertical_divider {
+       @apply h-full w-[1px] bg-slate-600 self-center ml-5;
+   };
+.education_block_wrapper{
+    @apply flex mt-5 h-[335px] mb-[100px];
+};
+.round{
+    @apply w-[12px] h-[12px] rounded-full bg-sky-900 self-center mr-[-26px];
+};
+.date_round_wrapper{
+    @apply flex justify-between;
+}
+.schools_wrapper{
+    @apply flex flex-col  justify-between ml-[35px] mt-[32px] last:mb-[-63px] ;
+};
+.school{
+    @apply w-[337px]  p-4 gap-2 shadow-xl rounded-[10px] flex justify-center items-center flex-col ;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+p{
+    @apply first:font-semibold first:text-lg last:font-semibold;
+}
+    
+}
+.school_skills{
+    @apply text-sm;
+}

@@ -1,0 +1,6 @@
+.more_about_me_text_wrapper{
+    @apply flex flex-col gap-3 p-5 mt-5;
+};
+.more_about_me_photo{
+    @apply w-[700px] m-auto mt-6 rounded-lg;
+}

@@ -1,0 +1,6 @@
+.title{
+   @apply w-[20%] m-auto text-center;
+}
+.photo{
+   @apply w-[20%]
+}

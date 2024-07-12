@@ -1,0 +1,29 @@
+.skillset{
+    @apply flex mt-[33px] mx-auto gap-6;
+}
+.skills_logo{
+    @apply w-[85px] h-[85px] rounded-full;
+};
+/*.skillsset_table{
+    @apply grid-cols-3 grid gap-[23px] w-[600px];
+};*/
+/* 
+.skill_name {
+    @apply border-customBlue border-[1px] rounded-[8px] flex justify-center items-center p-[16px];
+}
+*/
+.skillsset_table{
+    @apply grid grid-cols-4 gap-5 mt-[100px] ;
+    .skill_wrapper{
+        @apply flex flex-col items-center rounded-lg;
+
+    };
+    h3{
+        @apply bg-customBlue px-8 pt-5 pb-4 rounded-t-lg text-white 2xl:text-xl xl:text-lg font-bold w-full text-center ;
+    };
+    .skill_name_wrapper{
+        @apply font-normal text-lg w-full h-full flex flex-col gap-1 justify-center items-center px-8 py-5 border-x-2 border-b-2 rounded-t-none border-customBlue rounded-lg  ;
+  
+    }
+
+}

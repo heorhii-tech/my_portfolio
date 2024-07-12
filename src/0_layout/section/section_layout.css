@@ -1,0 +1,13 @@
+.title_section{
+    @apply flex justify-between mt-11;
+    
+}
+.aboutMe_section{
+    @apply flex mt-[100px] 2xl:justify-between xl:justify-between;
+
+
+};
+
+.title_block_wrapper{
+    @apply grid ;
+}

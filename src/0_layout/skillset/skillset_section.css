@@ -1,0 +1,10 @@
+
+.skillset_title{
+    @apply font-bold text-[48px];
+};
+.skillset_wrapper{
+    @apply flex flex-col justify-between pt-7;
+};
+.skillset_section{
+    @apply pt-7;
+}

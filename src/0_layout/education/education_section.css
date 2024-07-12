@@ -1,0 +1,9 @@
+.education_section{
+    @apply mt-[100px];
+};
+.education_content_wrapper{
+    @apply flex lg:gap-[89px] xl:gap-[3.4rem] 2xl:justify-between  ;
+};
+.education_title{
+    @apply font-bold text-[48px];
+}

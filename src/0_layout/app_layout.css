@@ -1,0 +1,7 @@
+.wrapper{
+    @apply container m-auto 2xl:max-w-[1440px];
+    
+};
+*{
+    @apply font-montserrat;
+}

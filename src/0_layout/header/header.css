@@ -1,0 +1,7 @@
+.header_wrapper{
+    @apply w-full mt-3 ;
+};
+.header{
+    @apply  xl:w-[1280px] 2xl:w-[1440px] flex  m-auto justify-end pr-[80px] xl:pr-0;
+
+};

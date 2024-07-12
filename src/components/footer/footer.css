@@ -1,0 +1,49 @@
+.social_media_link{
+    @apply w-[50px] h-[50px] transition duration-700 ease-in-out hover:-translate-y-1 hover:scale-110
+};
+.social_media_wrapper{
+    @apply flex gap-3;
+};
+.personal_info_block{
+    @apply  flex flex-col gap-[30px] max-w-[244px];
+};
+.personal_info_block_name{
+    @apply text-white font-bold text-2xl w-[193px]
+}
+.footer_profession{
+    @apply text-sm italic text-white font-normal leading-5 tracking-wide;
+}
+.footer_country {
+    @apply text-xl text-white tracking-wide
+}
+.footer_number{
+    @apply text-xl text-white tracking-wide;
+};
+.footer_email{
+    @apply text-xl text-white tracking-wide;
+};
+.footer_nav{
+    @apply text-white text-xl tracking-wide justify-center mt-[28px];
+   
+};
+.footer_nav_link_wrapper{
+@apply flex gap-[46px] justify-start mt-2;
+a{
+    @apply text-lg text-white ;  
+     
+}
+a::after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px #ffffff;
+    transform: scaleX(0);
+    transition: transform 400ms ease-in-out;
+    transform-origin: 0% 100%
+}
+
+a:hover::after {
+    transform: scaleX(1);
+
+}
+
+};

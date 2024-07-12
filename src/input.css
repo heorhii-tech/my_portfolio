@@ -1,0 +1,19 @@
+@import "./components/main/main.css";
+@import "./0_layout/header/header.css";
+@import "./components/headerNav.jsx/header_nav.css";
+@import "./0_layout/section/section_layout.css";
+@import "./0_layout/app_layout.css";
+@import "./components/section/section.css";
+@import "./components//education/education.css";
+@import "./0_layout/education/education_section.css";
+@import "./0_layout/skillset/skillset_section.css";
+@import "./components/skillset/skillset.css";
+@import "./0_layout/contact_me/contact_me.css";
+@import "./components/contact_me/contact_me.css";
+@import "./0_layout/footer/footer_section.css";
+@import "./components/footer/footer.css";
+@import "./components/more_about_me/more_about_me.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
