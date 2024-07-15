@@ -438,12 +438,11 @@
 .skillset_wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-top: 1.75rem
+  justify-content: space-between
 }
 
 .skillset_section {
-  padding-top: 1.75rem
+  margin-top: 100px
 }
 
 .skillset {

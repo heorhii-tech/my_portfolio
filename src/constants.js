@@ -65,13 +65,13 @@ const aboutMeText = [
 
 const hillel2024 = {
   school: `Hillel IT School`,
-  skills: `React JS, Vite JS,Redux Toolkit, GitHub,MUI`,
+  skills: `React JS, Vite JS, Redux Toolkit, GitHub,MUI`,
   year: `2024`,
   location: `Ukraine(remote)`,
 };
 const matrix2023 = {
   school: `Matrix Master`,
-  skills: `Java Script, NODE JS, React JS, GITHUB, Express JS, MongoDB, JSON Web Token, Scrum `,
+  skills: `JavaScript, NODE JS, React JS, GITHUB, Express JS, MongoDB, JSON Web Token, Scrum `,
   year: `2023`,
   location: `Rotterdam`,
 };

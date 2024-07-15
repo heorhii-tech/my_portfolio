@@ -3,8 +3,8 @@
     @apply font-bold text-[48px];
 };
 .skillset_wrapper{
-    @apply flex flex-col justify-between pt-7;
+    @apply flex flex-col justify-between;
 };
 .skillset_section{
-    @apply pt-7;
+    @apply mt-[100px];
 }
