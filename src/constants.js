@@ -186,7 +186,7 @@ const footerMenu = [
 
 const moreAboutMeText = [
   `
-My name is Georgiy. I am 28 years old and I am from Ukraine.
+My name is George. I am 28 years old and I am from Ukraine.
 My wife, my daughter and I have been living in the Netherlands for two and a half years.
 `,
   `I have been an entrepreneur in Ukraine since 2017. I opened my first cafe on the beach in Odessa. The main focus was cold drinks, cocktails and burgers.  Since then it became my passion. In 2022 I owned two cafes in the city center and managed a team of 15 people.   Because of the war, my family had to leave the country.
