@@ -1,22 +1,27 @@
 import React from "react";
 
-import {
-  socialMedia,
-  contactIcons,
-  aboutMeFooter,
-  moreAboutMeText,
-} from "../../constants";
-import FooterSection from "../footer/FooterSection";
+import { socialMedia, contactIcons, moreAboutMeArray } from "../../constants";
+
 import ContactMeSection from "../contact_me/ContactMeSection";
-import MoreAboutMeText from "../../components/more_about_me/MoreAboutMeText";
-import MoreAboutMePhoto from "../../components/more_about_me/MoreAboutMePhoto";
+
+import SectionLayout from "../section/SectionLayout";
 
 function MoreAboutMeLayout(props) {
   return (
     <div>
       <div className="wrapper">
-        <MoreAboutMePhoto />
-        <MoreAboutMeText moreAboutMeText={moreAboutMeText} />
+        {moreAboutMeArray.map((item, index) => {
+          return (
+            <SectionLayout
+              key={index}
+              sectionClassName={item.className}
+              subTitleText={item.text}
+              extra_text={item.extra_text}
+              imgBlockClass={item.imgClass}
+              img={item.img}
+            />
+          );
+        })}
         <ContactMeSection
           contactIcons={contactIcons}
           socialMedia={socialMedia}

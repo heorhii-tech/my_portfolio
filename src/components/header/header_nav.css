@@ -19,4 +19,9 @@
     
           }
 };
+.name {
+    @apply text-5xl text-customBlue font-bold w-[400px] tracking-wide leading-[60px] mr-auto;
+}
+
+;
 

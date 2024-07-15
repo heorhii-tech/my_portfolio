@@ -1,0 +1,19 @@
+.project_card{
+    @apply rounded-lg  pb-[30px]  flex flex-col items-center gap-[18px] px-2;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    .title_button{
+        @apply block max-w-[168px];
+    }
+    img{
+        @apply w-[396px] h-[296px] rounded-t-lg;
+    }
+    .buttons_wrapper{
+        @apply self-center mt-auto;
+    }
+    h3{
+        @apply text-2xl font-bold;
+    }
+    h4{
+        
+    }
+}

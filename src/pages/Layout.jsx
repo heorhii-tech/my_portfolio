@@ -8,6 +8,7 @@ import {
   socialMedia,
   footerMenu as defaultFooterManu,
   aboutMeFooter,
+  name,
 } from "../constants";
 import FooterSection from "../0_layout/footer/FooterSection";
 
@@ -29,6 +30,7 @@ function Layout(props) {
           headerMenu={headerMenu}
           pathname={pathname}
           returnAs={returnAs}
+          name={name}
         />
         <Outlet />
         <ScrollToTop />

@@ -23,8 +23,10 @@ import {
   skillset,
   contactIcons,
   socialMedia,
-  navLinks,
+  hillel2022,
+  lawAcademy,
 } from "../../constants";
+import ProjectsLayout from "../projects/ProjectsLayout";
 
 function HomePage(props) {
   return (
@@ -32,7 +34,6 @@ function HomePage(props) {
       <div className="wrapper">
         <SectionLayout
           sectionClassName={`title_section`}
-          name={name}
           titleText={titleText}
           subTitleText={subTitleText}
           profession={profession}
@@ -67,7 +68,10 @@ function HomePage(props) {
             matrix2023={matrix2023}
             itGidJavaScript={itGidJavaScript}
             itGidFunction={itGidFunction}
+            hillel2022={hillel2022}
+            lawAcademy={lawAcademy}
           />
+          <ProjectsLayout />
 
           <ContactMeSection
             contactIcons={contactIcons}

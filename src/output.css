@@ -29,7 +29,7 @@
 
 @media (min-width: 1536px) {
   .header {
-    width: 1440px
+    width: 1280px
   }
 }
 
@@ -60,6 +60,18 @@
   a:hover::after {
     transform: scaleX(1);
   }
+}
+
+.name {
+  margin-right: auto;
+  width: 400px;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(0 105 195 / var(--tw-text-opacity))
 }
 
 .title_section {
@@ -145,18 +157,6 @@
 
 .photo {
   width: 500px
-}
-
-.name {
-  margin-top: -54px;
-  width: 400px;
-  font-size: 3rem;
-  line-height: 1;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.025em;
-  --tw-text-opacity: 1;
-  color: rgb(0 105 195 / var(--tw-text-opacity))
 }
 
 .profession {
@@ -266,13 +266,14 @@
   }
 }
 
-.title_section{
+.title_section {
+  margin-top: 0px;
   @media (min-width: 1536px) {
     .photo {
       width: 500px
     }
   }
-};
+}
 
 .date_wrapper {
   display: flex;
@@ -339,8 +340,7 @@
 .education_block_wrapper {
   margin-top: 1.25rem;
   margin-bottom: 100px;
-  display: flex;
-  height: 335px
+  display: flex
 }
 
 .round {
@@ -363,7 +363,8 @@
   margin-top: 32px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
+  gap: 96px
 }
 
 .schools_wrapper:last-child {
@@ -777,19 +778,129 @@
   }
 }
 
-.more_about_me_text_wrapper {
-  margin-top: 1.25rem;
+.first_block {
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  padding: 1.25rem
+  align-items: center;
+  justify-content: space-between;
+  .sub_title {
+    width: auto
+  }
+  .sub_title {
+    max-width: 628px
+  }
+  .sub_title {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+  }
+  .sub_title {
+    font-weight: 400
+  }
+  .sub_title {
+    letter-spacing: 0.025em
+  }
 }
 
-.more_about_me_photo {
-  margin: auto;
-  margin-top: 1.5rem;
-  width: 700px;
-  border-radius: 0.5rem
+.more_about_photo {
+  max-height: 380px;
+  width: 570px;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.second_block {
+  margin-top: 62px;
+  margin-bottom: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .title_block_wrapper {
+    order: 2
+  }
+  .sub_title {
+    width: auto
+  }
+  .sub_title {
+    max-width: 570px
+  }
+  .sub_title {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+  }
+  .sub_title {
+    font-weight: 400
+  }
+  .sub_title {
+    line-height: 150%
+  }
+  .sub_title {
+    letter-spacing: 0.025em
+  }
+  .more_about_photo {
+    order: 1
+  }
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 30px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  .title_button {
+    display: block
+  }
+  .title_button {
+    max-width: 168px
+  }
+  img {
+    height: 296px
+  }
+  img {
+    width: 396px
+  }
+  img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem
+  }
+  .buttons_wrapper {
+    margin-top: auto
+  }
+  .buttons_wrapper {
+    align-self: center
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2rem
+  }
+  h3 {
+    font-weight: 700
+  }
+  h4{
+  }
+}
+
+.projects_section {
+  margin-top: 100px;
+  h2 {
+    font-size: 3rem;
+    line-height: 1
+  }
+  h2 {
+    font-weight: 700
+  }
+}
+
+.cards_wrapper {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem
 }
 
 /*! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com*/

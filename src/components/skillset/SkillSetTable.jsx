@@ -1,7 +1,6 @@
 import React from "react";
 
 function SkillSetTable({ skillset }) {
-  console.log(skillset);
   return (
     <div className="skillsset_table">
       {skillset.map((skill) => {

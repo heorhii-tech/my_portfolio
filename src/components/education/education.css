@@ -9,7 +9,7 @@
        @apply h-full w-[1px] bg-slate-600 self-center ml-5;
    };
 .education_block_wrapper{
-    @apply flex mt-5 h-[335px] mb-[100px];
+    @apply flex mt-5  mb-[100px];
 };
 .round{
     @apply w-[12px] h-[12px] rounded-full bg-sky-900 self-center mr-[-26px];
@@ -18,7 +18,7 @@
     @apply flex justify-between;
 }
 .schools_wrapper{
-    @apply flex flex-col  justify-between ml-[35px] mt-[32px] last:mb-[-63px] ;
+    @apply flex flex-col  justify-between ml-[35px] mt-[32px] last:mb-[-63px] gap-[96px] ;
 };
 .school{
     @apply w-[337px]  p-4 gap-2 shadow-xl rounded-[10px] flex justify-center items-center flex-col ;

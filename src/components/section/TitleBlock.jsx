@@ -6,6 +6,7 @@ function TitleBlock({
   subTitleText,
   profession,
   titleBlockClass,
+  extra_text,
 }) {
   return (
     <div className={titleBlockClass}>
@@ -15,9 +16,12 @@ function TitleBlock({
       {Array.isArray(subTitleText) ? (
         subTitleText.map((item) => {
           return (
-            <p className="sub_title" key={item}>
-              {item}
-            </p>
+            <div className="text_wrapper">
+              <p className="sub_title" key={item}>
+                {item}
+              </p>
+              <p>{extra_text}</p>
+            </div>
           );
         })
       ) : (

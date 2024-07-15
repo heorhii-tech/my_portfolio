@@ -29,11 +29,6 @@ let headerMenu = [
     link: `#contactMe`,
     id: 5,
   },
-  {
-    item: `jorik142@gmail.com`,
-    link: `mailto:jorik142@gmail.com`,
-    id: 6,
-  },
 ];
 const aboutMeHeader = [
   {
@@ -91,6 +86,19 @@ const itGidFunction = {
   skills: `function JavaScript`,
   year: `2023`,
   location: `Ukraine(remote)`,
+};
+const hillel2022 = {
+  school: `Hillel IT School`,
+  skills: `HTML 5, CSS 3, `,
+  year: `2022`,
+  location: `Ukraine(remote)`,
+};
+const lawAcademy = {
+  school: `National University «Odesa
+Law Academy»`,
+  skills: `Master of Law `,
+  year: `2013-2019`,
+  location: `Ukraine`,
 };
 const logos = [
   `https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png`,
@@ -194,6 +202,62 @@ A few months later I started studying advanced JavaScript in an online course an
 `,
 ];
 
+const moreAboutMeArray = [
+  {
+    text: [
+      ` 
+My name is Georgiy. I am 28 years old and I am from Ukraine.
+My wife, my daughter and I have been living in the Netherlands for two and a half years.`,
+      `I have been an entrepreneur in Ukraine since 2017. I opened my first cafe on the beach in Odessa. The main focus was cold drinks, cocktails and burgers.  Since then it became my passion. In 2022 I owned two cafes in the city center and managed a team.   Because of the war, my family had to leave the country.`,
+    ],
+
+    img: `https://i.ibb.co/k1DFfSt/photo1720607193.jpg" `,
+    className: `first_block`,
+    imgClass: `more_about_photo`,
+  },
+  {
+    text: [
+      `Our journey was by car. It was a very difficult journey of 2500 kilometers. Because of the stress, we hardly slept at all. Also our daughter Elina fell ill during the trip. But in 4 days we arrived in the Netherlands. At that time we thought that we would return to Ukraine after some time, but now we want to integrate into the Dutch society and live here.`,
+      `After moving to the Netherlands, I started learning web development and improved my English. I found a temporary job as a line operator at HEMA on the evening shift. The work was good, and the team leader was happy with me. However, my goal was to find a more suitable job for me. In 2022, I completed my first course in HTML and CSS.`,
+    ],
+    img: `https://i.ibb.co/B21J0c7/photo1721046557.jpg`,
+    className: `second_block`,
+    imgClass: `more_about_photo`,
+  },
+  {
+    text: [
+      `In 2023 I found an offline Full stack developer course in Rotterdam Matrix Master. The course was 3 months. Then I decided to work two days a week at HEMA to successfully complete the course in Matrix Master. I successfully completed the course and went back to full time work at HEMA. A few months later I started studying advanced JavaScript in an online course and successfully completed it.`,
+      `At the beginning of 2024, the HEMA EDC manager offered me a stable contract for a year. Unfortunately I had to turn it down because I had started to learn advanced web development and our daughter Elina started going to the  school . Fortunately, my wife and I managed to save enough money to live on. Now I can devote full time every day to learning programming. Also in June 2024 I started to study Dutch language on offline courses from "Alsare Academie" two times a week.`,
+    ],
+    img: `https://i.ibb.co/R77wCFF/photo1720954771.jpg`,
+    className: `first_block`,
+    imgClass: `more_about_photo`,
+  },
+];
+const projects = [
+  {
+    title: `Chuck Norris jokes`,
+    subTitle: `Adaptive design. Webpack, JavaScript, Tailwind, Sass`,
+    linkDemo: `https://chuk-norris-jokes.onrender.com/`,
+    linkGit: `https://github.com/heorhii-tech/Chuk_Norris_jokes`,
+    img: `https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png`,
+  },
+  {
+    title: `GitHub Dashboard and Battle`,
+    subTitle: `React, ViteJS, Tailwind, Sass, Redux`,
+    linkDemo: `https://github-dashboard-s2ya.onrender.com/`,
+    linkGit: `https://github.com/heorhii-tech/github_dashboard`,
+    img: `https://avatars.githubusercontent.com/u/6154722?v=4`,
+  },
+  {
+    title: `Crypto Wallet`,
+    subTitle: `React, Webpack, Redux, ANT Design,`,
+    linkDemo: `https://crypto-wallet-n8up.onrender.com/`,
+    linkGit: `https://github.com/heorhii-tech/crypto-wallet`,
+    img: `https://i.ibb.co/cL6G9MV/2024-07-14-180555.png`,
+  },
+];
+
 export {
   headerMenu,
   name,
@@ -215,4 +279,8 @@ export {
   aboutMeHeader,
   aboutMeFooter,
   moreAboutMeText,
+  projects,
+  hillel2022,
+  lawAcademy,
+  moreAboutMeArray,
 };

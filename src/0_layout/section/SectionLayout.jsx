@@ -5,7 +5,7 @@ import Button from "../../components/section/Link";
 
 function SectionLayout({
   sectionClassName,
-  name,
+
   titleText,
   subTitleText,
   profession,
@@ -22,16 +22,17 @@ function SectionLayout({
   link2Text,
   id,
   link,
+  extra_text,
 }) {
   return (
     <section className={sectionClassName} id={id}>
       <div className="title_block_wrapper">
         <TitleBlock
-          name={name}
           profession={profession}
           titleText={titleText}
           subTitleText={subTitleText}
           titleBlockClass={titleBlockClass}
+          extra_text={extra_text}
         />
         <div className="buttons_wrapper">
           {link1 && (
