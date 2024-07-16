@@ -1,6 +1,10 @@
 
 .first_block{
 @apply flex justify-between items-center;
+.more_about_photo{
+    @apply order-2;
+}
+
 .sub_title{
 @apply text-xl max-w-[628px] w-auto font-normal tracking-wide;
 }

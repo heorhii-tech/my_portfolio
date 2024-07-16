@@ -22,15 +22,13 @@
 
 @media (min-width: 1280px){
   .header{
-    width: 1280px;
-    padding-right: 0px
+    width: 1280px
   }
 }
 
 @media (min-width: 1536px){
   .header{
-    width: 1280px;
-    padding-right: 80px
+    width: 1280px
   }
 }
 
@@ -1108,6 +1106,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  .more_about_photo{
+    order: 2
+  }
   .sub_title{
     width: auto
   }
