@@ -5,15 +5,15 @@
         @apply block max-w-[118px] xl:max-w-[168px] py-[10px] xl:py-3;
     }
     img{
-        @apply w-full xl:w-[396px] h-[170px] xl:h-[296px] rounded-t-lg;
+        @apply w-[264px] xl:w-[396px] h-[170px] xl:h-[296px] rounded-t-lg;
     }
     .buttons_wrapper{
-        @apply self-center mt-auto justify-center;
+        @apply self-center mt-auto justify-center max-w-[264px];
     }
     h3{
         @apply xl:text-2xl font-bold;
     }
     h4{
-        @apply text-xs xl:text-sm mt-[-6px]
+        @apply text-xs xl:text-sm mt-[-6px] text-center;
     }
 }

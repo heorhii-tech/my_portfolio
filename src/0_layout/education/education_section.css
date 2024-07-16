@@ -1,5 +1,5 @@
 .education_section{
-    @apply mt-[100px];
+    @apply mt-[56px] xl:mt-[100px];
 };
 .education_content_wrapper{
     @apply flex flex-col gap-[30px] xl:flex-row xl:flex-row xl:relative xl:lg:gap-[89px] xl:gap-[3.4rem] justify-between  ;

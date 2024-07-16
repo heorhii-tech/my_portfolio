@@ -1,5 +1,5 @@
 .photo{
-    @apply  w-[500px] xl:order-2;
+
 };
 
 .profession{
@@ -19,11 +19,11 @@
 }
 .blue_button{
     @apply bg-customBlue text-white  text-center border-2;
-    @apply transition-all duration-700 ease-in-out hover:bg-white hover:text-customBlue hover:transform scale-105 hover:border-customBlue hover:border-2;
+    @apply xl:transition-all xl:duration-700 ease-in-out xl:hover:bg-white xl:hover:text-customBlue xl:hover:transform scale-105 xl:hover:border-customBlue xl:hover:border-2;
 }
 .white_button{
 @apply bg-white text-customBlue border-[2px] border-customBlue text-center;
-@apply transition-all duration-700 ease-in-out hover:bg-customBlue hover:text-white hover:transform scale-105 ;
+@apply xl:transition-all duration-700 ease-in-out xl:hover:bg-customBlue xl:hover:text-white xl:hover:transform scale-105 ;
 };
 .aboutMe_section{
     @apply xl:pt-7;
@@ -47,7 +47,7 @@
             @apply flex flex-col;
         }
     .photo {
-            @apply  2xl:w-[500px];
+            @apply  w-[500px] xl:order-2 mt-[14px] xl:mt-[0];
         };
       
 };

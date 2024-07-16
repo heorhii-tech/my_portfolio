@@ -2,7 +2,7 @@
     @apply xl:flex grid grid-cols-6 gap-2 xl:mt-[33px]  justify-between;
 }
 .skills_logo{
-    @apply xl:w-[85px] xl:h-[85px] rounded-full w-[27px] h-[27px] ;
+    @apply xl:w-[85px] xl:h-[85px] rounded-full w-[40px] h-[40px] mt-[10px] xl:mt-0 ;
 };
 /*.skillsset_table{
     @apply grid-cols-3 grid gap-[23px] w-[600px];

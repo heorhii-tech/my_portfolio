@@ -1,10 +1,10 @@
 .contact_link_button{
-    @apply text-[16px] xl:text-2xl  border-2 border-customBlue py-11 xl:py-16 rounded-lg flex justify-center gap-2 items-center transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-700 ;
+    @apply text-[16px] xl:text-2xl  border-2 border-customBlue py-11 xl:py-16 rounded-lg flex justify-center gap-2 items-center xl:transition ease-in-out xl:hover:-translate-y-1 xl:hover:scale-105 xl:duration-700 ;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     img{
         @apply w-7
     }
 }
 .blue_contact_link_button{
-    @apply text-[16px] xl:text-2xl bg-customBlue text-white transition ease-in-out  xl:hover:-translate-y-1 xl:hover:scale-105  duration-700;
+    @apply text-[16px] xl:text-2xl bg-customBlue text-white xl:transition ease-in-out  xl:hover:-translate-y-1 xl:hover:scale-105  xl:duration-700;
 }
