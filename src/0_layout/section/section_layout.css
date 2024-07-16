@@ -1,13 +1,13 @@
 .title_section{
-    @apply flex justify-between mt-11;
+    @apply flex flex-col xl:justify-between xl:mt-11 xl:flex-row;
     
 }
 .aboutMe_section{
-    @apply flex mt-[100px] 2xl:justify-between xl:justify-between;
+    @apply mt-[54px] flex flex-col xl:mt-[100px] 2xl:justify-between xl:justify-between xl:flex-row;
 
 
 };
 
 .title_block_wrapper{
-    @apply grid ;
+    @apply grid order-2  xl:order-1 mt-3 xl:mt-0 ;
 }

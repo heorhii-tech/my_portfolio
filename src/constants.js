@@ -56,6 +56,7 @@ const subTitleText = ``;
 const profession = `Front-end developer`;
 const aboutMeImg = `https://i.ibb.co/yY8DKKq/Rectangle-1992.png`;
 const titleImg = `https://i.ibb.co/Yk1j0Ls/Ellipse-147.png`;
+const titleImg1 = `https://i.ibb.co/FHCJM8G/KOSH1514.jpg`;
 
 const aboutMeText = [
   `My name is George and I am 28 years old. I am an entrepreneur from Ukraine who moved to the Netherlands because of the war and decided to change my profession to Front-end developer.`,

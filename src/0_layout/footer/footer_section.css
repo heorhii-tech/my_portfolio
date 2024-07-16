@@ -2,6 +2,6 @@
     @apply bg-customBlue ;
 };
 .footer{
-    @apply  m-auto  pt-9 pb-16 grid max-w-[1280px] ;
+    @apply flex justify-between xl:justify-normal m-auto max-w-[280px]  pt-9 pb-16 xl:grid xl:max-w-[1280px] ;
     grid-template-columns: 1fr 1.2fr 0.8fr;
 }

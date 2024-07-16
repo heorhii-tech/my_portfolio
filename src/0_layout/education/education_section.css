@@ -2,8 +2,8 @@
     @apply mt-[100px];
 };
 .education_content_wrapper{
-    @apply flex lg:gap-[89px] xl:gap-[3.4rem] justify-between  ;
+    @apply flex flex-col gap-[30px] xl:flex-row xl:flex-row xl:relative xl:lg:gap-[89px] xl:gap-[3.4rem] justify-between  ;
 };
 .education_title{
-    @apply font-bold text-[48px];
+    @apply font-bold xl:text-[48px] text-[24px] mb-[14px] xl:mb-0;
 }

@@ -1,27 +1,36 @@
 .date_wrapper{
-    @apply  2xl:w-[192px] flex justify-between flex-col xl:w-[140px];
-    .date{
-        @apply bg-customBlue px-6 py-4 text-center rounded-[8px] text-white 2xl:w-[192px] xl:w-[140px] ;
-    };
+    @apply  2xl:w-[192px] flex justify-between flex-col;
+    
  
 };
+.date {
+    @apply xl:self-start w-full bg-customBlue px-4 py-2 xl:px-6 xl:py-4 text-center rounded-[8px] text-white 2xl:w-[192px] xl:w-[140px];
+}
+
+;
    .vertical_divider {
-       @apply h-full w-[1px] bg-slate-600 self-center ml-5;
+       @apply hidden xl:block xl:mt-[-10px]  xl:w-[1px] xl:bg-slate-600 absolute left-[17.1%] xl:h-[90%];
    };
+   .vertical_divider2 {
+       @apply hidden xl:mt-[-10px] xl:block xl:w-[1px] xl:bg-slate-600 absolute right-[28.1%] xl:h-[90%];
+   }
+
+   ;
 .education_block_wrapper{
-    @apply flex mt-5  mb-[100px];
+    @apply flex flex-col xl:gap-[96px] gap-[30px]  xl:mt-5  xl:mb-[100px];
 };
+
 .round{
-    @apply w-[12px] h-[12px] rounded-full bg-sky-900 self-center mr-[-26px];
+    @apply hidden xl:inline-block xl:w-[12px] xl:h-[12px] xl:rounded-full xl:bg-sky-900 mt-[4%] xl:mr-[-26px];
 };
 .date_round_wrapper{
     @apply flex justify-between;
 }
 .schools_wrapper{
-    @apply flex flex-col  justify-between ml-[35px] mt-[32px] last:mb-[-63px] gap-[96px] ;
+    @apply flex flex-col  justify-between ml-[35px] mt-[32px] last:mb-[-63px] gap-[96px]  ;
 };
 .school{
-    @apply w-[337px]  p-4 gap-2 shadow-xl rounded-[10px] flex justify-center items-center flex-col ;
+    @apply xl:w-[337px] h-[160px] xl:ml-6 p-4 gap-2 shadow-xl rounded-[10px] flex justify-center items-center flex-col ;
 box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 p{
     @apply first:font-semibold first:text-lg last:font-semibold text-center;
@@ -30,4 +39,8 @@ p{
 }
 .school_skills{
     @apply text-sm;
+}
+.school_wrapper{
+    @apply flex xl:gap-5 gap-2 xl:flex-row flex-col;
+    
 }

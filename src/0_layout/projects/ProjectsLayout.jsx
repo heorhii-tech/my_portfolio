@@ -6,7 +6,7 @@ import ProjectCard from "../../components/projects/ProjectCard";
 function ProjectsLayout(props) {
   return (
     <section className="projects_section">
-      <h2>Projects</h2>
+      <h2 className="project_title">Projects</h2>
       <div className="cards_wrapper">
         {Object.keys(projects).length &&
           projects.map((item, index) => {

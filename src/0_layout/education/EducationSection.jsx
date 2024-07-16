@@ -17,11 +17,13 @@ function EducationSection({
           school1={hillel2024}
           school2={matrix2023}
           school3={itGidJavaScript}
+          dividerClass={`vertical_divider`}
         />
         <Education
           school1={itGidFunction}
           school2={hillel2022}
           school3={lawAcademy}
+          dividerClass={`vertical_divider2`}
         />
       </div>
     </section>

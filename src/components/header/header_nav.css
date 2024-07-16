@@ -1,7 +1,7 @@
 .header_nav{
-    @apply  flex gap-8 text-base font-normal text-zinc-950 ;
+    @apply hidden xl:flex xl:gap-8 xl:text-base xl:font-normal xl:text-zinc-950 ;
     a {
-            @apply text-xl hover:text-customBlue;
+            @apply xl:text-xl xl:hover:text-customBlue;
             
         }
        
@@ -20,7 +20,7 @@
           }
 };
 .name {
-    @apply text-5xl text-customBlue font-bold w-[400px] tracking-wide leading-[60px] mr-auto;
+    @apply w-[185px] text-xl xl:text-5xl text-customBlue font-bold xl:w-[400px] tracking-wide xl:leading-[60px] mr-auto;
 }
 
 ;

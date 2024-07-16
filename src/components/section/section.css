@@ -1,21 +1,21 @@
 .photo{
-    @apply  w-[500px];
+    @apply  w-[500px] xl:order-2;
 };
 
 .profession{
-    @apply mt-4 text-lg italic;
+    @apply mt-0 xl:mt-4 text-lg italic ;
 };
 .title_text{
-    @apply  text-[48px] w-[628px] font-bold leading-[59px] mt-5;
+    @apply  text-xl xl:text-[48px] xl:w-[628px] font-bold xl:leading-[59px] xl:my-auto;
 };
 .sub_title{
-    @apply mt-5 w-[400px] font-semibold;
+    @apply mt-5 xl:w-[400px] font-semibold;
 };
 .buttons_wrapper{
-    @apply flex gap-6 self-end;
+    @apply flex xl:gap-6 xl:self-end w-[280px] xl:w-auto gap-[10px];
 }
 .title_button{
-    @apply w-[200px] rounded-lg py-[16px]  shadow-xl;
+    @apply py-3  w-[135px]  text-[10px] xl:text-base xl:w-[200px] rounded-lg xl:py-[16px]  shadow-xl;
 }
 .blue_button{
     @apply bg-customBlue text-white  text-center border-2;
@@ -26,15 +26,15 @@
 @apply transition-all duration-700 ease-in-out hover:bg-customBlue hover:text-white hover:transform scale-105 ;
 };
 .aboutMe_section{
-    @apply pt-7;
+    @apply xl:pt-7;
     .title_text{
         @apply mt-0;
     }
     .sub_title{
-        @apply w-[628px]
+        @apply xl:w-[628px]
     }
     .title_block_wrapper {
-            @apply order-2;
+            @apply xl:order-2 xl:gap-0 gap-[21px];
     
         }
         .about_me_img {
@@ -43,7 +43,11 @@
 }
 .title_section{
     @apply mt-0;
+    .title_block {
+            @apply flex flex-col;
+        }
     .photo {
             @apply  2xl:w-[500px];
         };
+      
 };

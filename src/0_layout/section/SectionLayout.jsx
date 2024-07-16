@@ -31,7 +31,7 @@ function SectionLayout({
           profession={profession}
           titleText={titleText}
           subTitleText={subTitleText}
-          titleBlockClass={titleBlockClass}
+          titleBlockClass={`title_block`}
           extra_text={extra_text}
         />
         <div className="buttons_wrapper">

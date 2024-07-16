@@ -39,6 +39,7 @@ function HomePage(props) {
           profession={profession}
           imgBlockClass={`photo`}
           img={titleImg}
+          link1={true}
           link2={true}
           link1Text={`Contact Me`}
           link1SubClass={`blue_button`}
