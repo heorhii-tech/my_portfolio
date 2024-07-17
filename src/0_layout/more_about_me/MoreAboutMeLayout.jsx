@@ -5,6 +5,7 @@ import { socialMedia, contactIcons, moreAboutMeArray } from "../../constants";
 import ContactMeSection from "../contact_me/ContactMeSection";
 
 import SectionLayout from "../section/SectionLayout";
+import UpLinkButton from "../../components/up_link_button/UpLinkButton";
 
 function MoreAboutMeLayout(props) {
   return (
@@ -27,6 +28,7 @@ function MoreAboutMeLayout(props) {
           socialMedia={socialMedia}
         />
       </div>
+      <UpLinkButton />
     </div>
   );
 }

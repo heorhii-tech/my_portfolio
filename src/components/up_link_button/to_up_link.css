@@ -1,0 +1,7 @@
+.to_up_link {
+    @apply fixed cursor-pointer bottom-6 right-6;
+   img{
+    @apply w-[50px]
+   }
+}
+

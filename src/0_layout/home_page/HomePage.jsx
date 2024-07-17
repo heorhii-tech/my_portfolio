@@ -27,6 +27,7 @@ import {
   lawAcademy,
 } from "../../constants";
 import ProjectsLayout from "../projects/ProjectsLayout";
+import UpLinkButton from "../../components/up_link_button/UpLinkButton";
 
 function HomePage(props) {
   return (
@@ -81,6 +82,7 @@ function HomePage(props) {
             socialMedia={socialMedia}
           />
         </div>
+        <UpLinkButton />
       </div>
     </>
   );
