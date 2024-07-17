@@ -15,6 +15,7 @@
 @import "./components/more_about_me/more_about_me.css";
 @import "./components/projects/project_card.css";
 @import "./0_layout/projects/projects_layout.css";
+@import "./components/burger_menu/burger_menu.css";
 
 @tailwind base;
 @tailwind components;

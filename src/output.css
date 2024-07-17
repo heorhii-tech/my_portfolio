@@ -16,8 +16,10 @@
 .header{
   margin: auto;
   display: flex;
-  width: 279px;
-  justify-content: flex-end
+  width: 100%;
+  justify-content: flex-end;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem
 }
 
 @media (min-width: 1280px){
@@ -194,6 +196,40 @@
 *{
   font-family: Montserrat, sans-serif
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+/* CSS Reset */
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Убедитесь, что html и body занимают весь экран */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
 
 .photo{
 };
@@ -1329,7 +1365,119 @@
   }
 }
 
-/*! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com*/
+.burger_menu_icon_open{
+  display: block;
+  height: 12px;
+  width: 36px;
+  cursor: pointer;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 105 195 / var(--tw-border-opacity))
+}
+
+.burger_menu_icon_close{
+  position: relative;
+  z-index: 40;
+  height: 1.25rem;
+  width: 1.25rem;
+  cursor: pointer;
+  .line1,
+    .line2{
+    position: absolute
+  }
+  .line1,
+    .line2{
+    display: block
+  }
+  .line1,
+    .line2{
+    height: 0.25rem
+  }
+  .line1,
+    .line2{
+    width: 1.25rem
+  }
+  .line1,
+    .line2{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+  }
+  .line1{
+    top: 50%
+  }
+  .line1{
+    left: 50%
+  }
+  .line1{
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line1{
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line1{
+    --tw-rotate: 45deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line1{
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line2{
+    top: 50%
+  }
+  .line2{
+    left: 50%
+  }
+  .line2{
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line2{
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line2{
+    --tw-rotate: -45deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+  .line2{
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+}
+
+.burger_menu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+.burger_nav_links_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  vertical-align: middle;
+  a{
+    font-size: 1rem;
+    line-height: 1.5rem
+  }
+  a{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+  }
+}
+
+/* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)

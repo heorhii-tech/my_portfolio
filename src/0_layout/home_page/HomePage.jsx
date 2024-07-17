@@ -42,6 +42,8 @@ function HomePage(props) {
           link1={true}
           link2={true}
           link1Text={`Contact Me`}
+          link={`#contactMe`}
+          projectLink={true}
           link1SubClass={`blue_button`}
           link2Text={`Download CV`}
           link2SubClass={`white_button`}

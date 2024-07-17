@@ -21,12 +21,14 @@ function ProjectCard({
           subClass={subClass}
           link={linkDemo}
           projectLink={true}
+          blank={true}
         />
         <Button
           text={`GitHub`}
           subClass={`white_button`}
           link={linkGit}
           projectLink={true}
+          blank={true}
         />
       </div>
     </div>

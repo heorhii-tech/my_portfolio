@@ -23,6 +23,7 @@ function SectionLayout({
   id,
   link,
   extra_text,
+  projectLink,
 }) {
   return (
     <section className={sectionClassName} id={id}>
@@ -36,7 +37,12 @@ function SectionLayout({
         />
         <div className="buttons_wrapper">
           {link1 && (
-            <Button text={link1Text} subClass={link1SubClass} link={link} />
+            <Button
+              text={link1Text}
+              subClass={link1SubClass}
+              link={link}
+              projectLink={projectLink}
+            />
           )}
           {link2 && (
             <Button

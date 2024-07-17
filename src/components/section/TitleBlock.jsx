@@ -14,9 +14,9 @@ function TitleBlock({
       {profession && <h4 className="profession">{profession}</h4>}
       {titleText && <h2 className="title_text">{titleText}</h2>}
       {Array.isArray(subTitleText) ? (
-        subTitleText.map((item) => {
+        subTitleText.map((item, index) => {
           return (
-            <div className="text_wrapper">
+            <div key={index} className="text_wrapper">
               <p className="sub_title" key={item}>
                 {item}
               </p>

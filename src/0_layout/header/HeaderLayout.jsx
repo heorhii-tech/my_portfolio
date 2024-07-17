@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderNav from "../../components/header/HeaderNav";
 import Logo from "../../components/header/Logo";
+import BurgerMenuLayout from "../burger_menu/BurgerMenuLayout";
 
 function HeaderLayout({ headerMenu, returnAs, pathname, name }) {
   return (
@@ -12,6 +13,7 @@ function HeaderLayout({ headerMenu, returnAs, pathname, name }) {
           returnAs={returnAs}
           pathname={pathname}
         />
+        <BurgerMenuLayout />
       </div>
     </header>
   );

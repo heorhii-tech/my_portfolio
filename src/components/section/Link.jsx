@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Button({ text, subClass, download, link, projectLink }) {
-  console.log(link);
+function Button({ text, subClass, download, link, projectLink, blank }) {
   if (download || projectLink) {
     return (
       <a
         className={subClass + ` title_button`}
         href={link}
         download={download}
-        target="_blank"
+        target={blank && `_blank`}
       >
         {text && text}
       </a>

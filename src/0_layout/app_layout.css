@@ -4,4 +4,35 @@
 };
 *{
     @apply font-montserrat;
+};
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+/* HTML5 display-role reset for older browsers */
+/* CSS Reset */
+html,
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Убедитесь, что html и body занимают весь экран */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+
