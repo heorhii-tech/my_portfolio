@@ -1,7 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Logo({name}) {
-  return  name && <h1 className="name">{name}</h1>;
+function Logo({ name }) {
+  return (
+    name && (
+      <Link to="/" className="name">
+        {name}
+      </Link>
+    )
+  );
 }
 
 export default Logo;

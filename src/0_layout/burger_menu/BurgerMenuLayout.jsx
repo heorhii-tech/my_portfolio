@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Icon from "../../components/burger_menu/Icon";
 import BurgerMenu from "../../components/burger_menu/BurgerMenu";
-import { headerMenu } from "../../constants";
 
-function BurgerMenuLayout(props) {
+function BurgerMenuLayout({ headerMenu }) {
   const [burgerOpen, SetBurgerOpen] = useState(false);
 
   const setBurgerMenu = () => {

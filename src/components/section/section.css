@@ -31,7 +31,7 @@
         @apply mt-0;
     }
     .sub_title{
-        @apply xl:w-[628px]
+        @apply xl:w-[628px] font-normal;
     }
     .title_block_wrapper {
             @apply xl:order-2 xl:gap-0 gap-[21px];

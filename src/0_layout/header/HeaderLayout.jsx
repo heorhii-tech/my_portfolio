@@ -13,7 +13,7 @@ function HeaderLayout({ headerMenu, returnAs, pathname, name }) {
           returnAs={returnAs}
           pathname={pathname}
         />
-        <BurgerMenuLayout />
+        <BurgerMenuLayout headerMenu={headerMenu} />
       </div>
     </header>
   );
