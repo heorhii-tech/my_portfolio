@@ -245,20 +245,19 @@ const projects = [
   },
   {
     title: `GitHub Dashboard and Battle`,
-    subTitle: `React, ViteJS, Tailwind, Sass, Redux`,
+    subTitle: `Laptop version.React, ViteJS, Tailwind, Sass, Redux`,
     linkDemo: `https://github-dashboard-s2ya.onrender.com/`,
     linkGit: `https://github.com/heorhii-tech/github_dashboard`,
     img: `https://avatars.githubusercontent.com/u/6154722?v=4`,
   },
   {
     title: `Crypto Wallet`,
-    subTitle: `React, Webpack, Redux, ANT Design,`,
+    subTitle: `Laptop veriosn.React, Webpack, Redux, ANT Design,`,
     linkDemo: `https://crypto-wallet-n8up.onrender.com/`,
     linkGit: `https://github.com/heorhii-tech/crypto-wallet`,
     img: `https://i.ibb.co/cL6G9MV/2024-07-14-180555.png`,
   },
 ];
-
 
 export {
   headerMenu,

@@ -12,10 +12,10 @@
     @apply mt-5 xl:w-[400px] font-semibold;
 };
 .buttons_wrapper{
-    @apply flex xl:gap-6 xl:self-end w-[280px] xl:w-auto gap-[10px];
+    @apply flex xl:gap-6 xl:self-end w-[320px] xl:w-auto justify-between xl:justify-normal;
 }
 .title_button{
-    @apply py-3  w-[135px]  text-[10px] xl:text-base xl:w-[200px] rounded-lg xl:py-[16px]  shadow-xl;
+    @apply py-3  w-[150px]  text-[12px] xl:text-base xl:w-[200px] rounded-lg xl:py-[16px]  shadow-xl;
 }
 .blue_button{
     @apply bg-customBlue text-white  text-center border-2;

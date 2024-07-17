@@ -2,6 +2,6 @@
     @apply w-full mt-3 ;
 };
 .header{
-    @apply  w-full px-3 xl:w-[1280px] 2xl:w-[1280px] flex  m-auto justify-end;
+    @apply  w-full xl:px-0 px-3 xl:w-[1280px] 2xl:w-[1280px] flex  m-auto justify-end;
 
 };

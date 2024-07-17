@@ -14,16 +14,16 @@
     @apply text-[8px] xl:text-sm italic text-white font-normal leading-5 tracking-wide;
 }
 .footer_country {
-    @apply text-[11px] xl:text-xl text-white tracking-wide
+    @apply text-[14px] xl:text-xl text-white tracking-wide
 }
 .footer_number{
-    @apply text-[11px] xl:text-xl text-white tracking-wide;
+    @apply text-[14px] xl:text-xl text-white tracking-wide;
 };
 .footer_email{
-    @apply text-[11px] xl:text-xl text-white tracking-wide;
+    @apply text-[14px] xl:text-xl text-white tracking-wide;
 };
 .footer_nav{
-    @apply text-white text-[10px] xl:text-xl tracking-wide justify-center xl:mt-[28px];
+    @apply text-white text-[12px] xl:text-xl tracking-wide justify-center xl:mt-[28px];
     h3{
         @apply font-bold
     }
@@ -33,7 +33,7 @@
 .footer_nav_link_wrapper{
 @apply flex flex-col xl:flex-row xl:gap-[46px] justify-start mt-2;
 a{
-    @apply text-[10px] xl:text-lg text-white ;  
+    @apply text-[14px] xl:text-lg text-white ;  
      
 }
 a::after {

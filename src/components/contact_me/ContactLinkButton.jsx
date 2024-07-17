@@ -15,7 +15,7 @@ function ContactLinkButton({
   });
   let link = dataLink;
   if (email) {
-    link = `mailto:+${dataLink}`;
+    link = `mailto:${dataLink}`;
   } else if (tel) {
     link = `tel:+${dataLink}`;
   }
