@@ -5,9 +5,10 @@ function BurgerMenu({ headerMenu, setBurgerMenu }) {
   return (
     <div className="burger_menu">
       <div className="burger_nav_links_wrapper">
-        {headerMenu.map((item) => {
+        {headerMenu.map((item, index) => {
           return (
             <BurgerNavLink
+              key={index}
               action={setBurgerMenu}
               link={item.link}
               title={item.item}

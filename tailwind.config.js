@@ -1,6 +1,7 @@
 const important = require("tailwindcss-important");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  safelist: ["bg-black"],
   content: [],
   theme: {
     extend: {

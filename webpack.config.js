@@ -58,5 +58,5 @@ module.exports = {
     port: 3000, // Порт для dev-сервера
     historyApiFallback: true,
   },
-  mode: "development", // Режим сборки
+  mode: "production", // Режим сборки
 };

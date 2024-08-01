@@ -8,8 +8,8 @@ function Icon({ setBurgerMenu, burgerOpen }) {
       }
       onClick={setBurgerMenu}
     >
-      <span class="line1"></span>
-      <span class="line2"></span>
+      <span className="line1"></span>
+      <span className="line2"></span>
     </div>
   );
 }
