@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.jsx", // Точка входа в приложение
@@ -50,6 +51,10 @@ module.exports = {
       template: "./src/index.html", // Шаблон HTML файла
     }),
   ],
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()],
+  },
   devServer: {
     static: {
       directory: path.join(__dirname, "dist"), // Директория для статических файлов

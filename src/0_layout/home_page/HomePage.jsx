@@ -1,11 +1,8 @@
 import React from "react";
-import CV from "../../files/CV.pdf";
-import HeaderLayout from "../../0_layout/header/HeaderLayout";
 import SectionLayout from "../../0_layout/section/SectionLayout";
 import EducationSection from "../education/EducationSection";
 import SkillSetSection from "../skillset/SkillSetSection";
 import ContactMeSection from "../contact_me/ContactMeSection";
-import FooterSection from "../footer/FooterSection";
 
 import {
   name,
@@ -46,9 +43,9 @@ function HomePage(props) {
           link={`#contactMe`}
           projectLink={true}
           link1SubClass={`blue_button`}
-          link2Text={`Download CV`}
+          link2Text={`Open CV`}
           link2SubClass={`white_button`}
-          CV={CV}
+          CV={`https://firebasestorage.googleapis.com/v0/b/svitlospace-b21f8.appspot.com/o/portfolio%2FCV%20George%20Madzharov%20(1).pdf?alt=media&token=83899362-6f04-4a67-8244-340cad700776`}
           download={true}
         />
         <SectionLayout

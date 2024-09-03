@@ -50,6 +50,7 @@ function SectionLayout({
               subClass={link2SubClass}
               download={download}
               link={CV}
+              blank={true}
             />
           )}
         </div>
