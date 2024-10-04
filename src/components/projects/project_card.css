@@ -5,7 +5,7 @@
         @apply block max-w-[140px] xl:max-w-[168px] py-[10px] xl:py-3;
     }
     img{
-        @apply w-[264px] xl:w-[396px] h-[170px] xl:h-[296px] rounded-t-lg;
+        @apply w-[264px] xl:w-[396px] h-[170px] xl:h-[250px] rounded-t-lg;
     }
     .buttons_wrapper{
         @apply self-center mt-auto justify-between max-w-[300px];

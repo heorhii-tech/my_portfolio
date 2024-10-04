@@ -1315,7 +1315,7 @@ body {
   }
   @media (min-width: 1280px){
     img{
-      height: 296px
+      height: 250px
     }
   }
   @media (min-width: 1280px){
@@ -2080,4 +2080,9 @@ video {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }

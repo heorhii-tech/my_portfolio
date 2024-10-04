@@ -60,7 +60,7 @@ module.exports = {
       directory: path.join(__dirname, "dist"), // Директория для статических файлов
     },
     compress: true, // Сжатие для улучшения производительности
-    port: 3000, // Порт для dev-сервера
+    port: 5000, // Порт для dev-сервера
     historyApiFallback: true,
   },
   mode: "production", // Режим сборки

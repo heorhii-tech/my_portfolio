@@ -21,7 +21,7 @@ let headerMenu = [
   },
   {
     item: `Portfolio`,
-    link: `#education`,
+    link: `#portfolio`,
     id: 4,
   },
   {
@@ -236,6 +236,13 @@ My wife, my daughter and I have been living in the Netherlands for two and a hal
 ];
 const projects = [
   {
+    title: `Svitlo Space`,
+    subTitle: `Web site for coworking studio. Logic of authorization, registration, booking, personal account `,
+    linkDemo: `https://light-space.onrender.com/`,
+    linkGit: `https://github.com/heorhii-tech/light_space`,
+    img: `https://firebasestorage.googleapis.com/v0/b/svitlospace-b21f8.appspot.com/o/portfolio%2F5465352030714455350%20(1).jpg?alt=media&token=92c30bbd-ab3a-4410-b27b-b6c3cffc6254`,
+  },
+  {
     title: `Chuck Norris jokes`,
     subTitle: `Adaptive design. Webpack, JavaScript, Tailwind, Sass`,
     linkDemo: `https://chuk-norris-jokes.onrender.com/`,
@@ -248,13 +255,6 @@ const projects = [
     linkDemo: `https://github-dashboard-s2ya.onrender.com/`,
     linkGit: `https://github.com/heorhii-tech/github_dashboard`,
     img: `https://avatars.githubusercontent.com/u/6154722?v=4`,
-  },
-  {
-    title: `Crypto Wallet`,
-    subTitle: `Laptop veriosn.React, Webpack, Redux, ANT Design,`,
-    linkDemo: `https://crypto-wallet-n8up.onrender.com/`,
-    linkGit: `https://github.com/heorhii-tech/crypto-wallet`,
-    img: `https://i.ibb.co/cL6G9MV/2024-07-14-180555.png`,
   },
 ];
 
